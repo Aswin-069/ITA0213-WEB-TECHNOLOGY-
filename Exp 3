@@ -5,20 +5,28 @@
 .parent {
     width: 300px;
     height: 200px;
-    border: 2px solid black;
+    border: 3px solid black;
     position: relative;
 }
+
 .child {
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
     position: relative;
     left: 40px;
     top: 30px;
-    background: lightblue;
 }
 </style>
 </head>
+
 <body>
+<h2>Relative Position Example</h2>
+
 <div class="parent">
-    <div class="child">Relative Box</div>
+    Parent Div
+    <div class="child">Child Div</div>
 </div>
+
 </body>
 </html>
