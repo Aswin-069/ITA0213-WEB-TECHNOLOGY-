@@ -3,6 +3,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 
 public class StudentServlet extends HttpServlet {
+
     protected void doPost(HttpServletRequest request,
                           HttpServletResponse response)
                           throws IOException {
@@ -12,9 +13,13 @@ public class StudentServlet extends HttpServlet {
 
         String name = request.getParameter("name");
         String roll = request.getParameter("roll");
+        String dept = request.getParameter("dept");
 
-        out.println("<h2>Student Details</h2>");
+        out.println("<html><body>");
+        out.println("<h2>Student Registration Details</h2>");
         out.println("Name: " + name + "<br>");
-        out.println("Roll No: " + roll);
+        out.println("Roll No: " + roll + "<br>");
+        out.println("Department: " + dept);
+        out.println("</body></html>");
     }
 }
