@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+form {
+    width: 300px;
+    margin: auto;
+}
+input, select {
+    width: 100%;
+    margin: 5px;
+}
+</style>
+</head>
+<body>
+<form>
+    Name: <input type="text"><br>
+    ID: <input type="text"><br>
+    Address: <input type="text"><br>
+    Department: <input type="text"><br>
+    Mobile: <input type="text"><br>
+
+    City:
+    <select>
+        <option>Chennai</option>
+        <option>Bangalore</option>
+        <option>Mumbai</option>
+    </select>
+</form>
+</body>
+</html>
